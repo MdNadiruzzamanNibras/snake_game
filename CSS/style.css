@@ -2,4 +2,22 @@
     height: 100vh;
     width: 100vw;
     background-color: rgb(173, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows:repeat(24, 1fr) ;
+}
+.head{
+    background-color: rgb(31, 129, 164);
+}
+
+.food{
+    background-color: crimson;
 }
